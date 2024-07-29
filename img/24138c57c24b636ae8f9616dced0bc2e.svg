@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 158 138" fill="none">
+  <g class="fills">
+    <rect rx="0" ry="0" width="156" height="119" transform="matrix(1 0 0 -1 0 119)" class="frame-background"/>
+  </g>
+  <g class="frame-children">
+    <defs>
+      <clipPath id="z7FgU7Qq_tC3a" class="frame-clip frame-clip-def">
+        <rect rx="16" ry="16" x="124" y="104" width="32" height="32" transform="matrix(1 0 0 -1 0 240)"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#z7FgU7Qq_tC3a)">
+      <g class="fills">
+        <rect width="32" height="32" class="frame-background" x="124" transform="matrix(1 0 0 -1 0 240)" ry="16" rx="16" y="104" fill="#00d1b8" fill-opacity="1"/>
+      </g>
+      <g class="frame-children">
+        <g class="fills">
+          <rect width="24" height="24" class="frame-background" x="128" transform="matrix(1 0 0 -1 0 240)" ry="0" rx="0" y="108" opacity="1"/>
+        </g>
+        <g class="frame-children">
+          <path d="M137 114l6 6-6 6" class="fills"/>
+          <g class="strokes">
+            <path d="M137 114l6 6-6 6" class="stroke-shape" fill="none" stroke-width="3" stroke="#fff" stroke-opacity="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path d="M0 0c68.227 0 61.816 118.999 134.09 118.999" class="fills"/>
+    <g class="strokes">
+      <path d="M0 0c68.227 0 61.816 118.999 134.09 118.999" class="stroke-shape" fill="none" stroke-width="4" stroke="#00d1b8" stroke-opacity="1"/>
+    </g>
+  </g>
+</svg>

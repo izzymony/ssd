@@ -1,0 +1,961 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #F5F8FB;
+   position: fixed;
+    width: 100%;
+    top: 0;
+   
+    opacity: 9;
+  }
+  body{
+    background-color: #F5F8FB;
+  }
+  span{
+    color:#31EFB8;
+  }
+   
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .2;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.designs{
+
+}
+
+.overlay-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.overlay-button:hover {
+    background-color: #555;
+}
+
+
+  .imbg{
+    width: 100%;
+   margin-top: 5rem;
+    height:400px;
+    object-fit: cover;
+    opacity: 0.6rem;
+  }
+ .men{
+ float: right;
+ margin-top: 2.2rem;
+ margin-top: 2.4rem;
+  margin-right: 2rem;
+ }
+ 
+ 
+   .logo{
+    color: black;
+  margin-top: 2rem;
+   margin-left: 1rem;
+   font-family: "Work Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight:200;
+   font-style: normal;
+   display: flex;
+  
+  }
+
+  h1{
+    font-size: px;
+    color:#1F1F1F ;
+    font-size: 27px;
+    font-weight:800;
+    font-family: "Work Sans", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .main{
+    margin-top: 7rem;
+    max-width: 90%;
+    margin-left: 1rem;
+  }
+
+  .i{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-size: 28px;
+    font-style: normal;
+    margin-top: 0.5rem;
+  }
+  nav ul li a{
+    color:white; 
+    gap: 25px;
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    }
+    
+    #checkbtn{
+        font-size: 20px;
+        float: right;
+        margin-top: 2rem;
+        height: fit-content;
+        width: fit-content;
+        margin-right: 90px;
+        cursor: pointer;
+        display:none;
+        align-self:center;
+        color: white;
+    }
+    .error-message{
+        display: none;
+    }
+
+    .check{
+    margin-left: 1rem;
+    }
+
+    p{
+        color:grey;
+        font-family: "Work Sans", sans-serif;
+        font-size: 14px;
+        margin-top: 3rem;
+        line-height: 1.3rem;
+        font-style:normal;
+        gap: 2rem;
+        font-weight: 400;
+    }
+   
+    #check{
+        display:none;
+    }
+
+   .btn-signup{
+    display: grid;
+    margin-top: 2rem;
+    gap: 1rem;
+   }
+   #btn-signup{
+    display: grid;
+    margin-top: 2rem;
+    gap: 1rem;
+    max-width: 50%;
+    margin: auto;
+    margin-left: 2rem;
+   }
+
+    .green{
+        height: 3rem;
+        background-color: #31EFB8;
+        border: none;
+        width: 100%;
+        font-family: "Work Sans", sans-serif;
+        font-size: 17px;
+        border-radius: 0.5rem;
+    }
+    #green{
+        height: 3rem;
+        background-color: #31EFB8;
+        border: none;
+        width: 100%;
+        font-family: "Work Sans", sans-serif;
+        font-size: 17px;
+        border-radius: 0.5rem;
+    }
+    .white{
+        height: 3rem;
+        background-color: white;
+        border: none;
+        font-family: "Work Sans", sans-serif;
+        font-size: 17px;
+        border-radius: .5rem;
+    }
+    #white{
+        height: 3rem;
+        background-color: white;
+        border: none;
+        font-family: "Work Sans", sans-serif;
+        font-size: 17px;
+        border-radius: .5rem;
+    }
+    #whites{
+        height: 3rem;
+        background-color: white;
+        border: none;
+        font-family: "Work Sans", sans-serif;
+        font-size: 17px;
+        border-radius: .5rem;
+    }
+    .git-link{
+        margin-top: 2rem;
+        background-color:lightgray;
+        border-radius: 0.4rem;
+    }
+    .git-hub{
+        width: 100%;
+        text-align: center;
+        padding: 0.7rem;
+        font-family: "Work Sans", sans-serif;
+        font-size: 13px;
+        color: rgb(92, 91, 91);
+        font-weight: 550;
+    }
+    .a{
+        text-decoration: none;
+        color: rgb(92, 91, 91);
+    }
+
+    .git{
+       display: flex;
+       width: 97%;
+       margin: auto;
+       margin-top: -02rem;
+    }
+    .gb{
+     width: 25%;
+    }
+
+    .github-btn{
+        padding: 0.34rem;
+        font-size: 10px;
+        width: 4rem;
+        background-color:rgb(236, 236, 236);
+       
+    }
+    .github-num{
+        padding: 0.46rem;
+        font-size: 10px;
+        width: 4rem;
+        margin-left: -0.2rem;
+    }
+
+    .flow-design {
+        background-color: white;
+        margin-top: 5rem;
+        padding: 1rem;
+        box-shadow: 11px;
+        color: #90ddc7;
+        box-shadow:0 0 22px ;
+        padding-bottom: 4rem;
+       
+    }
+
+    
+    .ui-mockup{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        border-radius: 0.5rem;
+    }
+
+    .text{
+        text-align: center;
+        min-width: 80%;
+        margin: auto;
+    }
+
+    .p1{
+        text-align: center;
+        min-width: 80%;
+        font-size:20px;
+    }
+    .flow{
+        margin-top: 2rem;
+    }
+    .flowchart-container{
+        margin-top: 1rem;
+    }
+    .flowchart-box{
+        background-color: #31EFB8;
+        margin-top: 4rem;
+        border: 3px solid#31EFB8;
+        background: none;
+        padding: 2rem;
+        box-shadow: 0 0 5px;
+    }
+    h2{
+        font-size: px;
+        color:#1F1F1F ;
+        font-size: 27px;
+        font-weight:500;
+        font-family: "Work Sans", sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-optical-sizing: auto;
+    }
+
+    .designs{
+        background-color: #F5F8FB;
+        text-align: center;
+        margin-top: rem;
+    }
+    .bl{
+        font-size: px;
+        color:#1F1F1F ;
+        font-size: 23px;
+        font-weight:800;
+        font-family: "Work Sans", sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-optical-sizing: auto;
+        
+    }
+    .design-header{
+        padding-top: 3rem;
+    }
+
+    .img{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        border-radius: 0.1rem;
+        margin-top: 3rem;
+    }
+
+
+    .m{
+        text-align: center;
+        padding-top: 2rem;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .im{
+        background-image: url("../img/img\ \(3\).webp");
+        width: 100%;
+        height: 50%;
+        background-position: right;
+        background-size: contain;
+       
+    }
+    .pink{
+        color: #EB2F96;
+    }
+
+    .accordion{
+        width: 100%;
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        margin-top: 3rem;
+    }
+    .accordion li{
+        list-style: none;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .accordion li label{
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        font-weight: 600;
+        margin-left: -1rem;
+        cursor: pointer;
+        color: grey;
+        background-color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .label::before{
+        content: "+";
+        margin-right: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    input[type="radio"]{
+        display: none;
+    }
+    .accordion .content{
+        color: grey;
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        margin-left: -1rem;
+        overflow: hidden; 
+        /* transition: max-height 0.5s, padding 0.5s; */
+    }
+    
+    .content{
+        font-family: Raleway, sans-serif;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-size: 16px;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.5;
+        
+    }
+    
+   
+    
+    .accordion {
+      width: 95%;
+      margin: auto;
+      margin-top: 5rem;
+    }
+    
+    .accordion-item {
+        background-color:#F5F8FB;
+       
+        padding: 9px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        border:none;
+        color: white;
+        cursor: pointer;
+        content: "";
+        box-shadow: -5px 0px 5px rgb(228, 228, 228);
+    }
+    
+    .accordion-item:hover {
+        background-color:white;
+        box-shadow: -6px 0px #31EFB8;  
+
+    }
+    
+    .image-display {
+        margin-top: 20px;
+        text-align: center
+    }
+
+    .accord-btn{
+        font-size: 15px;
+        text-align: center;
+        display: flex;
+    }
+
+    .git{
+        width: 100%;
+    }
+    
+   .drop{
+    visibility: hidden;
+    }
+
+   .drop:hover{
+    visibility: visible;
+      
+    }
+    .image-display img {
+        max-width: 100%;
+        height: auto;
+        display: none;
+    }
+    
+    #displayedImage{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    h4{
+        font-family: "Work Sans", sans-serif;
+        font-size: 23px;
+        width: 80%;
+        margin: auto;
+        margin-left: 3rem;
+        font-weight: 800;
+        padding-top:4rem;
+    }
+
+    .design-code{
+        margin-top: 6rem;
+    }
+    .head-section{
+        margin-top: 3rem;
+    }
+
+    .image{
+        position: absolute;
+        z-index: -1;
+        margin-top: -6rem;
+    }
+    .image1{
+        position: absolute;
+        z-index: -1;
+        margin-top: -5rem;
+        margin-left: 3rem;
+    }
+
+    .design-paragraph{
+      
+       width: 80%;
+       margin: auto;
+        font-family: "Work Sans", sans-serif;
+        font-size: 17px;
+        line-height: 1.7rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .collaborations-cta{
+       padding: 1rem;
+       font-size: 17px;
+       font-family: "Work Sans", sans-serif;
+       background-color: white;
+       border: none;
+       margin-top: 2rem;
+       border-radius: 0.5rem;
+      
+    }
+    .cta-collab{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .design-img1{
+        width: 90%;
+        margin: auto;
+        margin-top: 2em;
+        border-radius: 1rem;
+        position: relative;
+        z-index: -1;
+        animation: float 3s infinite;
+    }
+   
+   .sponsorship-brand{
+    background-image: linear-gradient(white 60%, #F4F8FB);
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+   }
+        
+
+         .logos{
+            margin-top: 3rem;
+            width: 120px;
+         }
+
+         .mo , a {
+            font-family: 'Work', sans-serif;
+            font-style: none;
+            text-decoration: none;
+            color: rgb(72, 71, 71);
+            margin-top: 2rem;
+           
+         }
+         .mo::after{
+            content: "";
+            position:  absolute;
+            border: 1px solid #31EFB8;
+            width: 25%;
+            margin-top: 1.5rem;
+            margin-left: -6rem;
+            height: 0;
+         }
+         .community{
+            background-image: linear-gradient(white 06%, #F4F8FB );
+            padding-top: 3rem;
+            text-align: center;
+         }
+         .div{
+            width: 0%;
+            margin: auto;
+         }
+         .h2{
+            font-size: 20px;
+        
+            font-weight:800;
+         }
+
+         .container{
+            background-color:white;
+            width: 100%;
+            padding-bottom: 3rem;
+            z-index: 1;
+            position:absolute;
+           margin-top: 14rem;
+            
+         }
+         #link-image{
+            max-width: 100%;
+            border-radius: 1rem;
+            margin-top: rem;
+         }
+         #link-images{
+            max-width: 80%;
+            border-radius: 1rem;
+            margin-top: rem;
+         }
+         .head-container{
+        text-align: left;
+         }
+
+         #mo{
+           z-index: 1;
+         }
+         #mo::after{
+            content: "-";
+            position:  absolute;
+            border: 1px solid #31EFB8;
+            width: 25%;
+            z-index: -1;
+            margin-top: 1.5rem;
+            margin-left: -7rem;
+         }
+
+         input ,[type="button"]{
+            padding: 1rem;
+            background-color: #31EFB8;
+            border: none;
+            min-width: 60%;
+            margin: auto;
+            font-family: "work" sans-serif;
+            font-size: 20px;
+            margin-top: 3rem;
+            font-size: 13px;
+            font-weight: 600;
+            font-size: 15px;
+            border-radius: 1rem;
+        }
+         .image-holder{
+            background-color:white;
+            z-index: 1;
+            position: fixed;
+            margin-top: -5rem;
+           border-radius: 1rem;
+         }
+
+         .p4{
+
+           line-height: 1.4rem;
+           font-size: 16px;
+           margin-top: 2rem;
+
+         }
+
+         .background{
+            background-color:white;
+           
+            padding: 2rem;
+            text-align: left;
+            z-index: -1;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+         }
+
+         
+         .sect{
+            margin-top: 1rem;
+          
+         }
+
+         .image-community{
+            margin-top: 4rem;
+         }
+
+         .img-container{
+            margin-top: rem;
+         }.arrow{
+            display: none;
+         }
+         .updates{
+            background-color: white;
+            padding-top: 4rem;
+            margin-top: 3rem;
+            padding-bottom: 3rem;
+         }
+
+         .p2{
+            text-align: center;
+         }
+
+         .email{
+            width: 80%;
+            margin: auto;
+         } 
+
+         .design-dev{
+            background-color:#151035;
+            padding: 3rem;
+            margin-top: 3rem;
+            padding-bottom: 3rem;
+         }
+         .dev-header{
+            color: white;
+            font-size: 35px;
+            font-weight: 680;
+            text-align: center;
+            margin-top: 3rem;
+            font-family: Arial, Helvetica, sans-serif;
+           
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+         }
+
+         #dev-btn{
+            display: grid;
+            margin-top: 2rem;
+            gap: 1rem;
+            width: 50%;
+            margin: auto;
+            margin-left: 2rem;
+           }
+           .dev-signup{
+            display: grid;
+            margin-top: 2rem;
+            gap: 1rem;
+            width: 60%;
+            margin: auto;
+            margin-top: 3rem;
+           }
+          
+         
+            .greens{
+                height: 3rem;
+                background-color: #31EFB8;
+                border: none;
+                width: 100%;
+                font-family: "Work Sans", sans-serif;
+                font-size: 17px;
+                border-radius: 0.5rem;
+            }
+          
+            .whites{
+                height: 3rem;
+                background-color: white;
+                border: none;
+                font-family: "Work Sans", sans-serif;
+                font-size: 17px;
+                border-radius: .5rem;
+            }
+            .discovery-outline{
+                width: 90%;
+                margin: auto;
+            }
+         @media (min-width:375px){
+           .email{
+                width: 80%;
+                margin: auto;
+
+         }
+        
+        }
+
+
+         input [value="Get your news letter"]{
+            font-size: 17px;
+            border-radius: 1rem;
+            text-align: center;
+         }
+         input [type="text"]/* ,[value="t"] */,.t{
+            background: none;
+            background-color: none;
+            border: 1px solid lightgrey;
+            margin-top:1rem;
+            padding: 1rem;
+            border-radius: 0.3rem;
+            min-width: 100%;
+            height: 2.5rem;
+         }
+
+        
+
+         h5{
+            font-family:"work",sans-serif;
+            font-size: 14px;
+            font-size: 10;
+            margin-top: 1rem;
+           
+         }
+
+         .check{
+          display: flex;
+         
+          margin-left: -6rem;
+          gap: 1rem;
+         }
+         .git{
+            width: 100%;
+            margin-top: -1rem;
+         }
+         .p3{
+            margin-top: 1rem;
+            color: grey;
+            min-width: 50%;
+            font-family: "Work", sans-serif;
+            font-size: 15px;
+            line-height: 1.5rem;
+            margin-left: -6rem;
+         }
+
+         .d{
+            margin: auto;
+            display: flex;
+            margin-top: 3rem;
+         }
+         
+        footer{
+            background-color: #F5F8FB;
+            padding: 4rem;
+            text-align: left;
+            
+        }
+        .footer-nav{
+            display: inline-flex;
+            text-align: left;
+        }
+        .logoss{
+            color: black;
+           
+            margin-top: 2rem;
+             margin-left: 1rem;
+             font-family: "Work Sans", sans-serif;
+             font-optical-sizing: auto;
+             font-weight:200;
+             font-style: normal;
+             display: flex;
+         
+             margin-left: -3rem;
+           
+        }
+        .s{
+            
+            margin-left: -2rem;
+            margin-top: -0.3rem;
+        }
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-20px); /* Adjust the distance as needed */
+        }
+    }
+
+    .ol-header{
+       text-align: left;
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+    h6{
+        font-size: 20px;
+        font-weight: 800;
+        font-family: "Work", sans-serif;
+    }
+    ol,a{
+        margin-top: 1rem;
+    }
+@media (max-width:900px){
+    .checkbtn{
+        display: block;
+       
+    }
+ul{
+
+    
+/*  position:absolute;
+ width: 100%;
+ height: 100vh;
+ background:black;
+ 
+ text-align: right;
+
+ transition:  all 0.5s; */
+}
+
+ul{
+    position:fixed;
+    height: 100vh;
+    background-color: rgb(46, 45, 45);
+    left: 100%;
+    right: -50%;
+    top: 0;
+    border:1px solid #1F1F1F;
+    margin-left: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align:start;
+     background-color:#F4F8FB;
+     font-family: 'Epilogue', sans-serif;
+     transition: all 0.5s ;
+     
+    }
+
+    .menu-items{
+        overflow: scroll;
+  scroll-snap-align: y mandatory;
+  scroll-snap-type: mandatory;
+        
+    }
+    .menu-items::-webkit-scrollbar{
+        display: none;
+    }
+
+ul:hover{
+    
+   transform: translateX(100%);
+}
+.span{
+    margin-top: 3rem;
+    font-size: 12px;
+    color: grey;
+    font-weight: 700;
+    margin-left: 3rem;
+}
+
+
+nav ul li a{
+    display:block;
+    margin: 35px 0px;
+    line-height: 1px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style:none;
+    margin-top: 1.3rem;
+    margin-left: 3rem;
+}
+
+li{
+    list-style: none;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+}
+ul li a{
+    font-size:16px;
+    
+}
+
+
+#check:checked ~ ul{
+    left: 0;
+}
+}
+
+
